@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <title>Insert Data</title>
+    <link rel="stylesheet" href="../CSS/data.css">
+</head>
+<body>
+    
+    <h1 class="text-center">EMPLOYEE INSERT DATA</h1>
+    <div class="container">
+      <table class="table-success">
+       <tr>
+            <td> ENTER ID:</td>
+            <td><input type="text" id="empid" placeholder="enter id"><br></td>
+        </tr>
+        <tr>
+            <td>ENTER NAME</td>
+            <td> <input type="text" id="empname" placeholder="enter name"><br></td>
+        </tr>
+        <tr>
+            <td>ENTER SALARY</td>
+            <td><input type="text" id="empsal" placeholder="enter salary"><br></td>
+        </tr>
+      </table>
+       <button onclick="add()" class="mt-4">ADD</button>
+        <br></br>
+    
+        <table id="data">
+            <tr>
+                <th>ID</th>
+                <th>NAME</th>
+                <th>SALARY</th>
+                <th>REMOVE</th>
+            </tr>
+    
+        </table>
+    
+    </div>
+    <script src="../JS/Data.js"></script>
+</body>
+</html>
